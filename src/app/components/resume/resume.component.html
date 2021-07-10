@@ -1,0 +1,54 @@
+<!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+
+          <h3 class="resume-title">Summary</h3>
+          <div class="resume-item pb-0">
+            <h4>Javad Ebadi</h4>
+            <p><em>Innovative and deadline-driven Python Developer and Data Scientist with a PhD in Particle Physics and  1+ years of experience developing banking apps from initial concept to final and analyzing financial data with statistical models and machine learning.</em></p>
+            <ul>
+              <li>6th Bokharest, Tehran, Iran</li>
+              <li>(+98) 914-326-1369</li>
+              <li>javad.ebadi.1990@gmail.com</li>
+            </ul>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div *ngFor="let item of educations" class="resume-item">
+            <h4>{{item.title}}</h4>
+            <h5>{{item.start_year}} - {{item.end_year}}</h5>
+            <p><em>{{item.university.title}}, {{item.university.city.title}}, {{item.university.city.country.title}}</em><p>
+            <p>{{item.description}}</p>
+          </div><!-- end education -->
+        </div><!-- end col-lg-6 for summary and education -->
+
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div *ngFor="let item of experiences" class="resume-item">
+            <h4>{{item.title}}</h4>
+            <h5>{{item.start_year}} - {{item.end_year}}</h5>
+            <p><em>{{item.company.title}}, {{item.company.city.title}}, {{item.company.city.country.title}}</em></p>
+            <ul>
+              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+              <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+              <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+            </ul>
+          </div>
+        </div><!-- end col-lg-6 for experiences -->
+
+      </div> <!-- end row -->
+
+    </div><!-- end container -->
+  </section><!-- End Resume Section -->
+
+
+
