@@ -1,0 +1,43 @@
+<!-- ======= About Me ======= -->
+<div class="about-me container">
+
+    <div class="section-title">
+    <h2>About</h2>
+    <p>Learn more about me</p>
+    </div>
+
+    <div class="row">
+    <div class="col-lg-4" data-aos="fade-right">
+        <img src="assets/img/me.jpg" class="img-fluid" alt="">
+    </div>
+    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+        <h3>{{basicInfo.cv_title}}</h3>
+        <p class="fst-italic">
+        {{basicInfo.intro}}
+        </p>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul>
+                <li  *ngFor="let item of basic_info_1">
+                    <i class="bi bi-chevron-right"></i> <strong>{{item.key}}: </strong>  <span>{{item.value}}</span>
+                </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul>
+                <li  *ngFor="let item of basic_info_2">
+                    <i class="bi bi-chevron-right"></i> <strong>{{item.key}}: </strong>  <span>{{item.value}}</span>
+                </li>
+                </ul>
+            </div>
+        </div>
+        <p>
+        I have a strong background on mathematics, physics and computer science. In my PhD thesis, I did
+        a research on new physics including dark matter and axion-like particles at CERN colliders.
+        After my PhD, I left the academia for a job at Middle East Bank where I worked in treasury management
+        system in which we wrote a Python app to manage interbank transactions and securities. 
+        </p>
+    </div>
+    </div>
+
+</div><!-- End About Me -->

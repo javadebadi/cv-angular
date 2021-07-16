@@ -1,0 +1,17 @@
+<!-- ======= Interests ======= -->
+<div class="interests container">
+
+    <div class="section-title">
+    <h2>Interests</h2>
+    </div>
+
+    <div class="row">
+        <div *ngFor="let item of interests, let i = index" class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+            <i [class]="item.icon" [style.color]="item.color"></i>
+            <h3>{{item.title}}</h3>
+            </div>
+        </div>
+    </div>
+
+</div><!-- End Interests -->
