@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/frontend",
+            "outputPath": "dist/cv",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -35,7 +35,17 @@
               "src/assets/css/style.css"
             ],
             "scripts": [
-              "src/assets/js/main.js"
+              // "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              // "node_modules/waypoints/lib/noframework.waypoints.min.js",
+              // "node_modules/swiper/swiper-bundle.min.js",
+              // "node_modules/glightbox/dist/js/glightbox.min.js",
+              // // "src/assets/vendor/glightbox/js/glightbox.min.js",
+              // "src/assets/vendor/isotope-layout/isotope.pkgd.min.js",
+              "src/assets/vendor/purecounter/purecounter.js"
+              // // "src/assets/vendor/swiper/swiper-bundle.min.js",
+              // // "src/assets/vendor/waypoints/noframework.waypoints.js",
+              // "src/assets/js/main.js"
+              
             ]
           },
           "configurations": {
