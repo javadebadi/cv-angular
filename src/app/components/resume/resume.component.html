@@ -26,7 +26,7 @@
             <h4>{{item.title}}</h4>
             <h5>{{item.start_year}} - {{item.end_year}}</h5>
             <p><em>{{item.university.title}}, {{item.university.city.title}}, {{item.university.city.country.title}}</em><p>
-            <p>{{item.description}}</p>
+            <div [innerHTML]="item.description"></div>
           </div><!-- end education -->
         </div><!-- end col-lg-6 for summary and education -->
 

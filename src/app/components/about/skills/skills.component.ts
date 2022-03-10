@@ -20,6 +20,18 @@ export class SkillsComponent implements OnInit {
       "min_value": 0
     },
     {
+      "title": "Django",
+      "score": 80,
+      "max_value": 100,
+      "min_value": 0
+    },
+    {
+      "title": "SQL",
+      "score": 100,
+      "max_value": 100,
+      "min_value": 0
+    },
+    {
       "title": "C++",
       "score": 70,
       "max_value": 100,
@@ -30,7 +42,43 @@ export class SkillsComponent implements OnInit {
       "score": 80,
       "max_value": 100,
       "min_value": 0
-    }
+    },
+    {
+      "title": "Git & Github",
+      "score": 80,
+      "max_value": 100,
+      "min_value": 0
+    },
+    {
+      "title": "Machine Learning",
+      "score": 80,
+      "max_value": 100,
+      "min_value": 0
+    },
+    {
+      "title": "Linear Algebra",
+      "score": 100,
+      "max_value": 100,
+      "min_value": 0
+    },
+    {
+      "title": "Statistics",
+      "score": 80,
+      "max_value": 100,
+      "min_value": 0
+    },
+    {
+      "title": "Data Science",
+      "score": 80,
+      "max_value": 100,
+      "min_value": 0
+    },
+    {
+      "title": "Research",
+      "score": 100,
+      "max_value": 100,
+      "min_value": 0
+    },
   ]
 
   public skills1: any[] = [];

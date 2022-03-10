@@ -10,6 +10,21 @@ export class ResumeComponent implements OnInit {
 
   public educations: any[] = [
     {
+      "title": "PhD of Particle Physics",
+      "start_year": 2015,
+      "end_year": 2020,
+      "university":{
+        "title": "Institure for Research in Fundamental Sciences (IPM)",
+        "city": {
+          "title": "Tehran",
+          "country": {
+            "title": "Iran"
+          }
+        }
+      },
+      "description": "I did something awesome <ul><li>something1</li><li>something2</li></ul>"
+    },
+    {
       "title": "Master of Physics - Gravity",
       "start_year": 2013,
       "end_year": 2015,
